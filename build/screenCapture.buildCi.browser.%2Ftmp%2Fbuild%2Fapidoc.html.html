@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/justmoon/node-extend#readme"
-
-    >extend (v3.0.0)</a>
+    <a href="https://github.com/justmoon/node-extend#readme">extend (v3.0.0)</a>
 </h1>
 <h4>Port of jQuery.extend for node.js and the browser</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.extend">module extend</a><ol>
 
@@ -115,16 +108,16 @@
 		deep = false;
 
 	// Handle a deep copy situation
-	if (typeof target === &#x27;boolean&#x27;) {
+	if (typeof target === 'boolean') {
 		deep = target;
 		target = arguments[1] || {};
 		// skip the boolean and the target
 		i = 2;
-	} else if ((typeof target !== &#x27;object&#x27; &#x26;&#x26; typeof target !== &#x27;function&#x27;) || target == null) {
+	} else if ((typeof target !== 'object' &amp;&amp; typeof target !== 'function') || target == null) {
 		target = {};
 	}
 
-	for (; i &#x3c; length; ++i) {
+	for (; i &lt; length; ++i) {
 		options = arguments[i];
 		// Only deal with non-null/undefined values
 		if (options != null) {
@@ -135,20 +128,20 @@
 
 				// Prevent never-ending loop
 				if (target !== copy) {
-					// Recurse if we&#x27;re merging plain objects or arrays
-					if (deep &#x26;&#x26; copy &#x26;&#x26; (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {
+					// Recurse if we're merging plain objects or arrays
+					if (deep &amp;&amp; copy &amp;&amp; (isPlainObject(copy) || (copyIsArray = isArray(copy)))) {
 						if (copyIsArray) {
 							copyIsArray = false;
-							clone = src &#x26;&#x26; isArray(src) ? src : [];
+							clone = src &amp;&amp; isArray(src) ? src : [];
 						} else {
-							clone = src &#x26;&#x26; isPlainObject(src) ? src : {};
+							clone = src &amp;&amp; isPlainObject(src) ? src : {};
 						}
 
 						// Never move original objects, clone them
 						target[name] = extend(deep, clone, copy);
 
-					// Don&#x27;t bring in undefined values
-					} else if (typeof copy !== &#x27;undefined&#x27;) {
+					// Don't bring in undefined values
+					} else if (typeof copy !== 'undefined') {
 						target[name] = copy;
 					}
 				}
@@ -204,3 +197,4 @@
     ]
 </div>
 </div>
+</body></html>
