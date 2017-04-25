@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "extend",
-    "description": "api documentation for [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-extend)",
+    "description": "#### basic api documentation for  [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-extend)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "extend": "*",

@@ -1,4 +1,7 @@
-# api documentation for  [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-extend)
+# npmdoc-extend
+
+#### basic api documentation for  [extend (v3.0.0)](https://github.com/justmoon/node-extend#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-extend.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-extend) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-extend.svg)](https://travis-ci.org/npmdoc/node-npmdoc-extend)
+
 #### Port of jQuery.extend for node.js and the browser
 
 [![NPM](https://nodei.co/npm/extend.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/extend)
@@ -75,7 +78,8 @@
         "lint": "npm run jscs && npm run eslint",
         "test": "npm run lint && node test/index.js && npm run coverage-quiet"
     },
-    "version": "3.0.0"
+    "version": "3.0.0",
+    "bin": {}
 }
 ```
 
